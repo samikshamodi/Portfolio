@@ -35,6 +35,8 @@ header a {
 
 .links{
   text-decoration: none;
+  color:black;
+  border-bottom: 2px solid black;
 }
 
 
@@ -574,11 +576,12 @@ section.what-i-do .features-group .feature {
 
 body {
   font-family: "Poppins", sans-serif;
-  background: rgba(236, 241, 239, 0);
+/*   background: rgba(236, 241, 239, 0);
   background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
   background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
   background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
-  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
+  background: rgba(236, 241, 239, 1);
 }
 
 .about {
@@ -615,3 +618,53 @@ body {
 }
 
 /* PUT video on the left!!!!! */
+
+
+/* .big-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  font-size: 5rem;
+  font-family: "Lobster", cursive;
+  color: rgb(61, 61, 61);
+} */
+
+.intro {
+  background: black;
+  background: rgba(236, 241, 239, 1);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*  .slider {
+  background: rgb(97, 105, 109);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}
+
+.intro-text {
+  color: rgb(233, 233, 233);
+  font-family: "Heebo", sans-serif;
+  font-size: 3rem;
+}
+
+.hide {
+  background: black;
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}  */
