@@ -37,10 +37,6 @@ header a {
   text-decoration: none;
 }
 
-a:hover{
-  text-decoration: underline;
-}
-
 
 nav {
   font-family: "Poppins";
@@ -96,7 +92,7 @@ nav a {
 
 .hello{
 /*   border:2px solid blue; */
-transform: translate(0%,20vh);
+transform: translate(0%,10vh);
 }
 
 .dark{
@@ -104,7 +100,7 @@ transform: translate(0%,20vh);
 }
 
 
-h1.land {
+h1.ml8 {
   font-weight: 900;
   font-size: 4.5em;
   color: #fff;
@@ -112,7 +108,7 @@ h1.land {
   height: 3em;
 }
 
-.land .letters-container {
+.ml8 .letters-container {
 
   position: absolute;
   left: 0;
@@ -123,7 +119,7 @@ h1.land {
   height: 1em;
 }
 
-.land .letters {
+.ml8 .letters {
   position: relative;
   z-index: 2;
   display: inline-block;
@@ -132,13 +128,13 @@ h1.land {
   top: -0.2em;
 }
 
-.land .bang {
+.ml8 .bang {
   font-size: 1.4em;
   top: auto;
   left: -0.06em;
 }
 
-.land .circle {
+.ml8 .circle {
   position: absolute;
   left: 0;
   right: 0;
@@ -147,14 +143,14 @@ h1.land {
   bottom: 0;
 }
 
-.land .circle-white {
+.ml8 .circle-white {
   width: 3em;
   height: 3em;
   border: 2px dashed #DDA448;
   border-radius: 2em;
 }
 
-.land .circle-dark {
+.ml8 .circle-dark {
   width: 2.2em;
   height: 2.2em;
   background-color: #4f7b86;
@@ -163,7 +159,7 @@ h1.land {
   z-index: 1;
 }
 
-.land .circle-dark-dashed {
+.ml8 .circle-dark-dashed {
   border-radius: 2.4em;
   background-color: transparent;
   border: 2px dashed #DDA448;
@@ -212,7 +208,7 @@ h3::after{
   width:1px;
   height:50px;
    border-right:4px solid #272932ff;
-  /*  animation-delay: 10s; */
+   animation-delay: 10s;
   animation:blink 0.5s infinite ease; 
 }
 

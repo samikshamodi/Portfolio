@@ -19,11 +19,16 @@ function type(){
     setTimeout(type,400); //calls after 400ms/
 };
 
+/* 
+const t1=gsap.timeline({defaults:{ease: "power1.out"}})
 
+t1.to('.hello',{y:"0vh",duration:1})
+t1.to('.name2',{x:"0%",duration:1},"-=1")
+ t1.to('.typing',{x:"0%",duration:1},"-=1") 
+ t1.fromTo('.hello',{opacity:0},{opacity:1,duration:1})  
+ t1.fromTo('header',{opacity:0},{opacity:1,duration:1}); */
 
-
-
-
+ setTimeout(type,3000);
 
 
  // Wrap every letter in a span
@@ -48,64 +53,49 @@ function type(){
 
 
 
-   anime.timeline()
+   anime.timeline({loop: true})
    .add({
-     targets: '.land .circle-white',
+     targets: '.ml8 .circle-white',
      scale: [0, 3],
      opacity: [1, 0],
      easing: "easeInOutExpo",
      rotateZ: 360,
      duration: 1100
    }).add({
-     targets: '.land .circle-container',
+     targets: '.ml8 .circle-container',
      scale: [0, 1],
      duration: 1100,
      easing: "easeInOutExpo",
      offset: '-=1000'
    }).add({
-     targets: '.land .circle-dark',
+     targets: '.ml8 .circle-dark',
      scale: [0, 1],
      duration: 1100,
      easing: "easeOutExpo",
      offset: '-=600'
    }).add({
-     targets: '.land .letters-left',
+     targets: '.ml8 .letters-left',
      scale: [0, 1],
-     duration: 800,
+     duration: 1200,
      offset: '-=550'
    }).add({
-     targets: '.land .bang',
+     targets: '.ml8 .bang',
      scale: [0, 1],
      rotateZ: [45, 15],
      duration: 1200,
      offset: '-=1000'
    }).add({
-     targets: '.land .circle-white',
+     targets: '.ml8',
      opacity: 0,
      duration: 1000,
      easing: "easeOutExpo",
      delay: 1400
-   }); 
-
-
-
+   });
  
  anime({
-   targets: '.land .circle-dark-dashed',
+   targets: '.ml8 .circle-dark-dashed',
    rotateZ: 360,
    duration: 8000,
    easing: "linear",
    loop: true
  });
-
-const t1=gsap.timeline({defaults:{ease: "power1.out"}})
-
-t1.to('.hello',{y:"10vh",duration:0.5,delay:5}) 
-t1.fromTo('.name2',{opacity:0},{opacity:1,duration:1})  
-t1.fromTo('.typing',{opacity:0},{opacity:1,duration:1})  
-t1.fromTo('header',{opacity:0},{opacity:1,duration:1});
-
- setTimeout(type,7000);
-
- 
- 
