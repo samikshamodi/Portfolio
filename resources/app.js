@@ -19,16 +19,11 @@ function type(){
     setTimeout(type,400); //calls after 400ms/
 };
 
-/* 
-const t1=gsap.timeline({defaults:{ease: "power1.out"}})
 
-t1.to('.hello',{y:"0vh",duration:1})
-t1.to('.name2',{x:"0%",duration:1},"-=1")
- t1.to('.typing',{x:"0%",duration:1},"-=1") 
- t1.fromTo('.hello',{opacity:0},{opacity:1,duration:1})  
- t1.fromTo('header',{opacity:0},{opacity:1,duration:1}); */
 
- setTimeout(type,3000);
+
+
+
 
 
  // Wrap every letter in a span
@@ -53,49 +48,64 @@ t1.to('.name2',{x:"0%",duration:1},"-=1")
 
 
 
-   anime.timeline({loop: true})
+   anime.timeline()
    .add({
-     targets: '.ml8 .circle-white',
+     targets: '.land .circle-white',
      scale: [0, 3],
      opacity: [1, 0],
      easing: "easeInOutExpo",
      rotateZ: 360,
      duration: 1100
    }).add({
-     targets: '.ml8 .circle-container',
+     targets: '.land .circle-container',
      scale: [0, 1],
      duration: 1100,
      easing: "easeInOutExpo",
      offset: '-=1000'
    }).add({
-     targets: '.ml8 .circle-dark',
+     targets: '.land .circle-dark',
      scale: [0, 1],
      duration: 1100,
      easing: "easeOutExpo",
      offset: '-=600'
    }).add({
-     targets: '.ml8 .letters-left',
+     targets: '.land .letters-left',
      scale: [0, 1],
-     duration: 1200,
+     duration: 800,
      offset: '-=550'
    }).add({
-     targets: '.ml8 .bang',
+     targets: '.land .bang',
      scale: [0, 1],
      rotateZ: [45, 15],
      duration: 1200,
      offset: '-=1000'
    }).add({
-     targets: '.ml8',
+     targets: '.land .circle-white',
      opacity: 0,
      duration: 1000,
      easing: "easeOutExpo",
      delay: 1400
-   });
+   }); 
+
+
+
  
  anime({
-   targets: '.ml8 .circle-dark-dashed',
+   targets: '.land .circle-dark-dashed',
    rotateZ: 360,
    duration: 8000,
    easing: "linear",
    loop: true
  });
+
+const t1=gsap.timeline({defaults:{ease: "power1.out"}})
+
+t1.to('.hello',{y:"10vh",duration:0.5,delay:5}) 
+t1.fromTo('.name2',{opacity:0},{opacity:1,duration:1})  
+t1.fromTo('.typing',{opacity:0},{opacity:1,duration:1})  
+t1.fromTo('header',{opacity:0},{opacity:1,duration:1});
+
+ setTimeout(type,7000);
+
+ 
+ 
