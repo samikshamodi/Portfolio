@@ -1,0 +1,31 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+header {
+	position: fixed;
+	font-family: "Poppins";
+	font-weight: 400;
+	height:9vh;
+	top: 0;
+/* 	left: 10;
+	right: 5; */
+    margin-left:2% ;
+	display: flex;
+	align-items: center;
+	color: rgb(0, 175, 230);
+	/* color: rgb(16, 34, 43); */
+	font-size: 30px;
+	background-color: transparent;
+	z-index: 10;
+ /*    border: 2px solid salmon; */
+    font-size: 14px;
+}
+
+header a{
+	text-decoration: none;
+	color: rgb(0, 175, 230);
+}

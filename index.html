@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samiksha Modi</title>
+    <link href="https://fonts.googleapis.com/css?family=Fahkwang&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="./resources/main.css" rel="stylesheet" />
+
+  
+
+    <script src="./resources/splide.min.js"></script>
+    <link rel="stylesheet" href="./resources/splide-skyblue.min.css">
+
+    <script type="text/javascript" src="./resources/turnjs4/extras/jquery.min.1.7.js"></script>
+    <script type="text/javascript" src="./resources/turnjs4/extras/modernizr.2.5.3.min.js"></script>
+    <script type="text/javascript" src="./resources/turnjs4/lib/hash.js"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <a href="#"><span>SM</span></a>
+        <nav>
+            <a href="#secwork">PROJECT</a>
+            <a href="#secjournal">JOURNAL</a>
+            <a href="#secabout">ABOUT</a>
+        </nav>
+    </header>
+    <div class="main">
+        <h2> SAMIKSHA MODI</h2>
+        <h3> DESIGNER</h3>
+        <h1> HELLO</h1>
+    </div>
+
+    <div id="secwork"></div>
+
+    <div class="divider">
+        <div class="headers">
+            <h1 class="headers">Projects.</h1>
+        </div>
+    </div>
+
+    <div class="work">
+        <div class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="project1">
+                            <div class="videoSide">
+                                <video class="laptop" muted autoplay width="500px" height="280px" controls loop>
+                                    <source src="./assets/2020.mp4" type="video/mp4">
+                                    <source src="./assets/2020.ogg" type="video/ogg">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                            <div class="empty"></div>
+
+                          
+                            <div class="detailSide">
+                                <div class="pyear"> Feb '21 </div>
+                                <div class="pname"> 2020 </div>
+                                <div class="pdesc">An interactive typography summarising the year 2020. In the words of
+                                    J.K.
+                                    Rowling, these
+                                    were dark times, there was no denying. Our world had perhaps faced no greater threat
+                                    than it did that
+                                    year. We continued to Social Distance and repel the virus that seeked to take our
+                                    lives.
+                                </div>
+                                <div class="more"><a class="links" href="https://github.com/samikshamodi/2020"
+                                        target="_blank"> Source Code  </a> </p>
+                                </div>
+
+                            </div>
+                        </div>
+                
+                    </li>
+                    <li class="splide__slide">
+                        <div class="project1 project2">
+                            <div class="videoSide2">
+                                <video class="isustain" muted autoplay width="300px" height="500px" controls loop>
+                                    <source src="./assets/isustain.mp4" type="video/mp4">
+                                    <source src="./assets/isustain.ogg" type="video/ogg">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+
+                            <div class="empty2"></div>
+
+
+                            <div class="detailSide detailSide2">
+                                <div class="pyear"> Oct'20 - Dec '20 </div>
+                                <div class="pname"> iSustain </div>
+                                <div class="pdesc">Designed an engaging, participatory and educative app which helps the
+                                    youth choose and practice a sustainable lifestyle by following the Design Thinking
+                                    process in a team of five people.</div>
+                                <div class="more"><a class="links"
+                                        href="https://isustainshades.wixsite.com/isustainshades" target="_blank"> See
+                                        More </a> </p>
+                                </div>
+                            </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="project1 project3">
+
+                            <div class="videoSide">
+                                <video class="video2 laptop" muted autoplay width="500px" height="280px" controls loop>
+                                    <source src="./assets/ColorSwitch.mp4" type="video/mp4">
+                                    <source src="./assets/ColorSwitch.ogg" type="video/ogg">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+
+                            <div class="empty"></div>
+
+                            <div class="detailSide">
+                                <div class="pyear"> Oct'20 - Dec '20 </div>
+                                <div class="pname"> Color Switch </div>
+                                <div class="pdesc">A clone of the popular game Color Switch for desktop using JavaFX.
+                                    Utilised concepts of object-oriented and event-driven programming. It has features
+                                    like
+                                    animation, resume game and leaderbaord. Worked in a team of two people.</div>
+                                <div class="more"><a class="links" href="https://github.com/samikshamodi/ColorSwitch"
+                                        target="_blank"> Source Code <!-- &#10230 --> </a> </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            /* new Splide('.splide').mount(); */
+
+            new Splide('.splide', {
+                type: 'loop',
+                start: 1,
+            }).mount();
+
+        });
+    </script>
+
+    <div id="secjournal"></div>
+
+
+
+    <div class="divider">
+        <div class="headers">
+            <h1 class="headers">Journals.</h1>
+        </div>
+    </div>
+
+
+    <div class="journal">
+        <a href="./resources/turnjs4/samples/magazine/vdc.html">
+            <div class="vdc">
+                <img id="vdcCover" class="crop-img" src="./assets/VDCJournal.jpg" alt="VDC Journal Cover" />
+            </div>
+        </a>
+        <a href="./resources/turnjs4/samples/magazine2/dpp.html">
+            <div class="dpp">
+                <img id="dppCover" class="crop-img" src="./assets/DPPJournal.jpg" alt="DPP Journal Cover" />
+            </div>
+        </a>
+
+    </div>
+
+
+    <!--   <section class="what-i-do">
+        <h2>What I do</h2>
+        <hr />
+        <div class="features-group">
+          <div class="feature">
+            <h1>UX Research</h1>
+            <p>
+              Gathering qualitative and quantitative data to understand end users,
+              their needs, desires and frustrations.
+            </p>
+          </div>
+  
+          <div class="feature">
+            <h1>Interaction Design</h1>
+            <p>
+              Ideating and testing many possible solutions that aim to solve the
+              user need. Validating solutions in the form of user testing.
+            </p>
+          </div>
+          <div class="feature">
+            <h1>Visual Design</h1>
+            <p>
+              Creating and maintaining a visual deisng language for the product
+              which communicates core brand values
+            </p>
+          </div>
+        </div>
+      </section> -->
+
+    <div id="secabout"></div>
+
+    <div class="divider">
+        <div class="headers">
+            <h1 class="headers">About.</h1>
+        </div>
+    </div>
+
+
+    <div class="about">
+        <div class="landing">
+            <!-- <img src="./assets/me.jpg" alt="Samiksha"> -->
+            <div class="skills">
+                <img id="me2" src="./assets/me2.jpg" alt="My Picture" />
+
+            </div>
+            <div class=story>
+                <p class="info">
+                    I am a second year computer science and
+                    design undergraduate at IIITD. I am passionate about enhancing human-computer interaction through
+                    design and technology. I am proficient in Design Thinking and Problem Solving. Some tools I am really good at using are Adobe InDesign and Adobe Illustrator.</p>
+                </p>
+                <br>
+
+                <p class="info">
+                    If you are interested in my work, you can email me at
+                    <a class="links" href="https://isustainshades.wixsite.com/isustainshades" target="_blank">
+                        samiksha19331@iiitd.ac.in. </a>
+                </p>
+
+
+                <br>
+
+                <p class="info">
+                    Samiksha Modi
+                </p>
+                <br>
+              <p class="info">
+                <a href="https://github.com/samikshamodi" target="_blank">
+                <img id="github" src="./assets/github64.png" alt="Github" /> </a>    </p>
+        
+
+            </div>
+
+           
+
+          
+        </div>
+        <!-- <div class="back">
+            <p class="info">
+                Back to Top
+        </div> -->
+    </div>
+
+    
+
+
+</body>
+
+</html>
