@@ -11,7 +11,7 @@
         rel="stylesheet">
     <link href="./resources/main.css" rel="stylesheet" />
 
-  
+
 
     <script src="./resources/splide.min.js"></script>
     <link rel="stylesheet" href="./resources/splide-skyblue.min.css">
@@ -33,9 +33,25 @@
         </nav>
     </header>
     <div class="main">
-        <h2> SAMIKSHA MODI</h2>
-        <h3> DESIGNER</h3>
-        <h1> HELLO</h1>
+        <!-- <h1 class="hello"> HELLO</h1> -->
+        <div class="hello">
+        <h1 class="ml8">
+            <span class="letters-container">
+              <span class="letters letters-left">Hi</span>
+              <span class="letters bang">!</span>
+            </span>
+            <span class="circle circle-white"></span>
+            <span class="circle circle-dark"></span>
+            <span class="circle circle-container"><span class="circle circle-dark-dashed"></span></span>
+          </h1>
+        </div>
+        <div class=nText>
+            
+        <h2 class="name2"> <span class="dark">I AM </span>SAMIKSHA MODI</h2>
+        <div class="type">       
+            <h3 class="typing">DESIGNER</h3>
+        </div>
+    </div>
     </div>
 
     <div id="secwork"></div>
@@ -61,25 +77,24 @@
                             </div>
                             <div class="empty"></div>
 
-                          
+
                             <div class="detailSide">
                                 <div class="pyear"> Feb '21 </div>
                                 <div class="pname"> 2020 </div>
-                                <div class="pdesc">An interactive typography summarising the year 2020. In the words of
-                                    J.K.
-                                    Rowling, these
+                                <div class="pdesc">An interactive typography summarising the year 2020 made using HTML,
+                                    CSS and JavaScript. These
                                     were dark times, there was no denying. Our world had perhaps faced no greater threat
                                     than it did that
                                     year. We continued to Social Distance and repel the virus that seeked to take our
                                     lives.
                                 </div>
                                 <div class="more"><a class="links" href="https://github.com/samikshamodi/2020"
-                                        target="_blank"> Source Code  </a> </p>
+                                        target="_blank"> Source Code </a> </p>
                                 </div>
 
                             </div>
                         </div>
-                
+
                     </li>
                     <li class="splide__slide">
                         <div class="project1 project2">
@@ -127,7 +142,9 @@
                                     like
                                     animation, resume game and leaderbaord. Worked in a team of two people.</div>
                                 <div class="more"><a class="links" href="https://github.com/samikshamodi/ColorSwitch"
-                                        target="_blank"> Source Code <!-- &#10230 --> </a> </p>
+                                        target="_blank"> Source Code
+                                        <!-- &#10230 -->
+                                    </a> </p>
                                 </div>
 
                             </div>
@@ -163,16 +180,25 @@
 
 
     <div class="journal">
-        <a href="./resources/turnjs4/samples/magazine/vdc.html">
-            <div class="vdc">
-                <img id="vdcCover" class="crop-img" src="./assets/VDCJournal.jpg" alt="VDC Journal Cover" />
-            </div>
-        </a>
-        <a href="./resources/turnjs4/samples/magazine2/dpp.html">
-            <div class="dpp">
-                <img id="dppCover" class="crop-img" src="./assets/DPPJournal.jpg" alt="DPP Journal Cover" />
-            </div>
-        </a>
+            <a href="./resources/turnjs4/samples/magazine/vdc.html">
+                <div class="vdc">
+                    <img id="vdcCover" class="crop-img" src="./assets/VDCJournal.jpg" alt="VDC Journal Cover" />
+                </div>
+            </a>
+
+            <h1 class="readJournal">
+                <span class="text-wrapper2">
+                    <span class="letters2">Sneak a Peek</span>
+                </span>
+            </h1>
+
+            <a href="./resources/turnjs4/samples/magazine2/dpp.html">
+                <div class="dpp">
+                    <img id="dppCover" class="crop-img" src="./assets/DPPJournal.jpg" alt="DPP Journal Cover" />
+                </div>
+            </a>
+
+
 
     </div>
 
@@ -225,14 +251,15 @@
             <div class=story>
                 <p class="info">
                     I am a second year computer science and
-                    design undergraduate at IIITD. I am passionate about enhancing human-computer interaction through
-                    design and technology. I am proficient in Design Thinking and Problem Solving. Some tools I am really good at using are Adobe InDesign and Adobe Illustrator.</p>
+                    design undergraduate at <span> <a class="links" href="https://www.iiitd.ac.in/" target="_blank" >IIITD</a></span>. I am passionate about enhancing human-computer interaction through
+                    design and technology. I am proficient in Design Thinking and Problem Solving. Some tools I am
+                    really good at using are Adobe InDesign and Adobe Illustrator.</p>
                 </p>
                 <br>
 
                 <p class="info">
                     If you are interested in my work, you can email me at
-                    <a class="links" href="https://isustainshades.wixsite.com/isustainshades" target="_blank">
+                    <a class="links" href="mailto:samiksha19331@iiitd.ac.in">
                         samiksha19331@iiitd.ac.in. </a>
                 </p>
 
@@ -243,16 +270,17 @@
                     Samiksha Modi
                 </p>
                 <br>
-              <p class="info">
-                <a href="https://github.com/samikshamodi" target="_blank">
-                <img id="github" src="./assets/github64.png" alt="Github" /> </a>    </p>
-        
+                <p class="info">
+                    <a href="https://github.com/samikshamodi" target="_blank">
+                        <img id="github" src="./assets/github64.png" alt="Github" /> </a>
+                </p>
+
 
             </div>
 
-           
 
-          
+
+
         </div>
         <!-- <div class="back">
             <p class="info">
@@ -260,7 +288,13 @@
         </div> -->
     </div>
 
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <script src="./resources/app.js"></script>
+
+
+
 
 
 </body>
